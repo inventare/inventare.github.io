@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background: #fb5521;
+}
+
+header > .header-body {
+    flex: 1;
+    color: #FFF;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header > svg {
+    width: 100%;
+    height: auto;
+}
+
+header > .header-spacing {
+    height: 100px;
+    background: #FFF;
+}
+
+header > .header-body .box {
+    width: 90%;
+    max-width: 700px;
+}
+
+header > .header-body .box h4 {
+    margin-bottom: 5px;
+}
+header > .header-body .box h1 {
+    margin-top: 0;
+}
+
+header > .header-body .brand-box {
+    margin-top: 80px;
+}
+
+header > .header-body .brand-box a {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
+header > .header-body .brand-box a svg {
+    fill: #FFF;
+}
